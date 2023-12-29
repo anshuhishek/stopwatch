@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    background-color: rgb(51, 44, 44);
+    color: rgb(147, 138, 138);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.stopwatch{
+    background-color: black;
+    padding: 35px 38px;
+    border-radius: 10px;
+}
+.timer{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: white;
+    
+}
+#btn{
+    /* margin-top: 20px;
+    border-radius: 10px; */
+    text-align: center;
+}
+.btnpro{
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.btnpro:hover{
+    background-color: brown;
+}
